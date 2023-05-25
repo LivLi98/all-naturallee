@@ -52,17 +52,17 @@ const MakeUpQuiz = () => {
       <div className="MakeUpQ">
         <h2 className="title">Makeup Questionnaire</h2>
       <div className="NamesEmails">
-        <input 
+        <input className="FL"
           type="input"
           name="name"
           placeholder="First & Last Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
           />
-        <input 
+        <input className="Email"
           type="input"
           name="email"
-          placeholder="youremail@gmail.com"
+          placeholder="your-email@gmail.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           />
@@ -89,12 +89,12 @@ const MakeUpQuiz = () => {
         ) : (
           <div>
             <h3 className="completedSur">Questionnaire completed!</h3>
-            <p>Thank you for your responses.</p>
+            <p className="TY">Thank you for your responses.</p>
             
           
             
             <button className="submitBtn" onClick={() => navigate('makeup-inventory')}>Submit</button>
-            <button className="submitBtn" onClick={() => navigate('makeup-inventory')}>Home</button>
+            <button className="submitBtn" onClick={() => navigate('/')}>Home</button>
             
           
           </div>

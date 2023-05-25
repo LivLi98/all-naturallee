@@ -1,7 +1,15 @@
 body{
   background-color: rgb(242, 205, 136);
 }
+.FL{
+  height:23px;
+    font-size:14pt;
+}
 
+.Email{
+  height:23px;
+    font-size:14pt;
+}
 
 .Ques1{
   text-align: center;
@@ -21,6 +29,14 @@ body{
   text-align: center;
   background-color: rgb(251, 231, 194);
   
+}
+.TY{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+.completedSur{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
 }
 
 .second-container{
@@ -50,4 +66,32 @@ body{
   text-align: center;
   margin-top: 2cm;
   font-size: 40px;
+}
+
+.productN{
+  font-weight:bold;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  padding:5px;background-color:rgb(255, 157, 38) ;
+
+  
+}
+
+.productGroup{
+  text-align: center;
+}
+
+.productB{
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+.ProductP{
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ProductL{
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
 }

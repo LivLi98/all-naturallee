@@ -44,14 +44,14 @@ const Products = () => {
 
   return (
     <section>
-      <h1>Product List</h1>
+      <h1 className="petit-script">Product List</h1>
       <ProductList products={products} />
       {products.map((product) => (
-        <div key={product.id}>
-          <p>Name: {product.name}</p>
-          <p>Brand: {product.brand}</p>
-          <p>Price: {product.price}</p>
-          <p>Product Link: {product.product_link}</p>
+        <div className="productGroup" key={product.id}>
+          <p className="productN">Name: {product.name}</p>
+          <p className="productB">Brand: {product.brand}</p>
+          <p className="ProductP">Price: {product.price}</p>
+          <p className="ProductL">Product Link: {product.product_link}</p>
           <img src={product.image_link} alt="Product" />
         </div>
       ))}

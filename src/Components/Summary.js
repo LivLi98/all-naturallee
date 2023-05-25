@@ -1,9 +1,10 @@
 import React from "react";
+import Products from "./MUProducts";
 
 const MakeUpInventory =() => {
     return(
         <div>
-            Make up Inventory 
+           <Products />
         </div>
     )
 }
